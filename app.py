@@ -67,6 +67,10 @@ def OPV():
 def IG():
     return render_template('ig.html')
 
+@app.route('/eduf')
+def EducaciónF():
+    return render_template('eduf.html')
+
 
 if __name__=='__main__':
     app.run(debug=True, port=5050)
